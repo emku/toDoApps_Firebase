@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DBAFF8D264E4EFC5FCBA54C /* Pods_toDoApps_FirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA63EA1C7D13CC5D7280518 /* Pods_toDoApps_FirebaseTests.framework */; };
+		591F6324A81167A93D05F521 /* Pods_toDoApps_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4628BE9D3DB6CCB57655D67F /* Pods_toDoApps_Firebase.framework */; };
+		A7519CE61D485D570071419A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7519CE51D485D570071419A /* User.swift */; };
+		A7519D3C1D48F3E50071419A /* toDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7519D3B1D48F3E50071419A /* toDo.swift */; };
+		A7519D3E1D48F7960071419A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7519D3D1D48F7960071419A /* LoginViewController.swift */; };
+		A7519D431D494A4C0071419A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7519D421D494A4C0071419A /* GoogleService-Info.plist */; };
+		A7519D471D49CA720071419A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7519D461D49CA720071419A /* DetailViewController.swift */; };
 		A789E8C31D48575700CBEFC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A789E8C21D48575700CBEFC6 /* AppDelegate.swift */; };
-		A789E8C51D48575700CBEFC6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A789E8C41D48575700CBEFC6 /* FirstViewController.swift */; };
-		A789E8C71D48575700CBEFC6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A789E8C61D48575700CBEFC6 /* SecondViewController.swift */; };
 		A789E8CA1D48575700CBEFC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A789E8C81D48575700CBEFC6 /* Main.storyboard */; };
 		A789E8CC1D48575700CBEFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A789E8CB1D48575700CBEFC6 /* Assets.xcassets */; };
 		A789E8CF1D48575700CBEFC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A789E8CD1D48575700CBEFC6 /* LaunchScreen.storyboard */; };
 		A789E8DA1D48575700CBEFC6 /* toDoApps_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A789E8D91D48575700CBEFC6 /* toDoApps_FirebaseTests.swift */; };
 		A789E8E51D48575700CBEFC6 /* toDoApps_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A789E8E41D48575700CBEFC6 /* toDoApps_FirebaseUITests.swift */; };
+		A789E8F31D485B7800CBEFC6 /* CVTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A789E8F21D485B7800CBEFC6 /* CVTableViewController.swift */; };
+		D72231A56AF372BEB3A5C66A /* Pods_toDoApps_FirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267C8377E4F45819D3EDBA37 /* Pods_toDoApps_FirebaseUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D121E7CE2A3D91C07CAE3D0 /* Pods-toDoApps_Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toDoApps_Firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-toDoApps_Firebase/Pods-toDoApps_Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		267C8377E4F45819D3EDBA37 /* Pods_toDoApps_FirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toDoApps_FirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C068632C48BA9FF58C30538 /* Pods-toDoApps_FirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toDoApps_FirebaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-toDoApps_FirebaseUITests/Pods-toDoApps_FirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3FA63EA1C7D13CC5D7280518 /* Pods_toDoApps_FirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toDoApps_FirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4628BE9D3DB6CCB57655D67F /* Pods_toDoApps_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toDoApps_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5786511C3DBE515427E9C624 /* Pods-toDoApps_Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toDoApps_Firebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toDoApps_Firebase/Pods-toDoApps_Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		68A501EC185C9C28EEC1666E /* Pods-toDoApps_FirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toDoApps_FirebaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-toDoApps_FirebaseTests/Pods-toDoApps_FirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7519CE51D485D570071419A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A7519D3B1D48F3E50071419A /* toDo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toDo.swift; sourceTree = "<group>"; };
+		A7519D3D1D48F7960071419A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A7519D421D494A4C0071419A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7519D461D49CA720071419A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 		A789E8BF1D48575700CBEFC6 /* toDoApps_Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDoApps_Firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A789E8C21D48575700CBEFC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A789E8C41D48575700CBEFC6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A789E8C61D48575700CBEFC6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A789E8C91D48575700CBEFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A789E8CB1D48575700CBEFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A789E8CE1D48575700CBEFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,9 @@
 		A789E8E01D48575700CBEFC6 /* toDoApps_FirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toDoApps_FirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A789E8E41D48575700CBEFC6 /* toDoApps_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoApps_FirebaseUITests.swift; sourceTree = "<group>"; };
 		A789E8E61D48575700CBEFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A789E8F21D485B7800CBEFC6 /* CVTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVTableViewController.swift; sourceTree = "<group>"; };
+		BD04A501B410A195D4A99284 /* Pods-toDoApps_FirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toDoApps_FirebaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toDoApps_FirebaseTests/Pods-toDoApps_FirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7937609DDBCCB43F806AD26 /* Pods-toDoApps_FirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toDoApps_FirebaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toDoApps_FirebaseUITests/Pods-toDoApps_FirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591F6324A81167A93D05F521 /* Pods_toDoApps_Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBAFF8D264E4EFC5FCBA54C /* Pods_toDoApps_FirebaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72231A56AF372BEB3A5C66A /* Pods_toDoApps_FirebaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		663B0076E94F88E268AC951A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5786511C3DBE515427E9C624 /* Pods-toDoApps_Firebase.debug.xcconfig */,
+				0D121E7CE2A3D91C07CAE3D0 /* Pods-toDoApps_Firebase.release.xcconfig */,
+				BD04A501B410A195D4A99284 /* Pods-toDoApps_FirebaseTests.debug.xcconfig */,
+				68A501EC185C9C28EEC1666E /* Pods-toDoApps_FirebaseTests.release.xcconfig */,
+				E7937609DDBCCB43F806AD26 /* Pods-toDoApps_FirebaseUITests.debug.xcconfig */,
+				2C068632C48BA9FF58C30538 /* Pods-toDoApps_FirebaseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87DBA88425597419B8BE3597 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4628BE9D3DB6CCB57655D67F /* Pods_toDoApps_Firebase.framework */,
+				3FA63EA1C7D13CC5D7280518 /* Pods_toDoApps_FirebaseTests.framework */,
+				267C8377E4F45819D3EDBA37 /* Pods_toDoApps_FirebaseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7519CE91D485EF10071419A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7519D3B1D48F3E50071419A /* toDo.swift */,
+				A7519CE51D485D570071419A /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A7519D3F1D4946310071419A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7519D461D49CA720071419A /* DetailViewController.swift */,
+				A789E8F21D485B7800CBEFC6 /* CVTableViewController.swift */,
+				A7519D3D1D48F7960071419A /* LoginViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		A789E8B61D48575700CBEFC6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +148,8 @@
 				A789E8D81D48575700CBEFC6 /* toDoApps_FirebaseTests */,
 				A789E8E31D48575700CBEFC6 /* toDoApps_FirebaseUITests */,
 				A789E8C01D48575700CBEFC6 /* Products */,
+				663B0076E94F88E268AC951A /* Pods */,
+				87DBA88425597419B8BE3597 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,10 +167,11 @@
 			isa = PBXGroup;
 			children = (
 				A789E8C21D48575700CBEFC6 /* AppDelegate.swift */,
-				A789E8C41D48575700CBEFC6 /* FirstViewController.swift */,
-				A789E8C61D48575700CBEFC6 /* SecondViewController.swift */,
-				A789E8C81D48575700CBEFC6 /* Main.storyboard */,
+				A7519D3F1D4946310071419A /* Controller */,
+				A7519CE91D485EF10071419A /* Model */,
 				A789E8CB1D48575700CBEFC6 /* Assets.xcassets */,
+				A7519D421D494A4C0071419A /* GoogleService-Info.plist */,
+				A789E8C81D48575700CBEFC6 /* Main.storyboard */,
 				A789E8CD1D48575700CBEFC6 /* LaunchScreen.storyboard */,
 				A789E8D01D48575700CBEFC6 /* Info.plist */,
 			);
@@ -135,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A789E8E91D48575700CBEFC6 /* Build configuration list for PBXNativeTarget "toDoApps_Firebase" */;
 			buildPhases = (
+				79B7945771086C93CBC68545 /* [CP] Check Pods Manifest.lock */,
 				A789E8BB1D48575700CBEFC6 /* Sources */,
 				A789E8BC1D48575700CBEFC6 /* Frameworks */,
 				A789E8BD1D48575700CBEFC6 /* Resources */,
+				BA3187E015DCE0A7AEF91836 /* [CP] Embed Pods Frameworks */,
+				78FDB3DEC353AAA0DE38712F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A789E8EC1D48575700CBEFC6 /* Build configuration list for PBXNativeTarget "toDoApps_FirebaseTests" */;
 			buildPhases = (
+				53F8A0B2C0DFD597873A9D29 /* [CP] Check Pods Manifest.lock */,
 				A789E8D11D48575700CBEFC6 /* Sources */,
 				A789E8D21D48575700CBEFC6 /* Frameworks */,
 				A789E8D31D48575700CBEFC6 /* Resources */,
+				C0F41766AF25036FF1F9E41B /* [CP] Embed Pods Frameworks */,
+				4E658F54E702DA461A00516A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A789E8EF1D48575700CBEFC6 /* Build configuration list for PBXNativeTarget "toDoApps_FirebaseUITests" */;
 			buildPhases = (
+				90ACEEC94003832B3BF03C29 /* [CP] Check Pods Manifest.lock */,
 				A789E8DC1D48575700CBEFC6 /* Sources */,
 				A789E8DD1D48575700CBEFC6 /* Frameworks */,
 				A789E8DE1D48575700CBEFC6 /* Resources */,
+				5B84BB1BC71D4CE39ED62697 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A789E8CF1D48575700CBEFC6 /* LaunchScreen.storyboard in Resources */,
+				A7519D431D494A4C0071419A /* GoogleService-Info.plist in Resources */,
 				A789E8CC1D48575700CBEFC6 /* Assets.xcassets in Resources */,
 				A789E8CA1D48575700CBEFC6 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +331,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E658F54E702DA461A00516A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toDoApps_FirebaseTests/Pods-toDoApps_FirebaseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53F8A0B2C0DFD597873A9D29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B84BB1BC71D4CE39ED62697 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toDoApps_FirebaseUITests/Pods-toDoApps_FirebaseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78FDB3DEC353AAA0DE38712F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toDoApps_Firebase/Pods-toDoApps_Firebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B7945771086C93CBC68545 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90ACEEC94003832B3BF03C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA3187E015DCE0A7AEF91836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toDoApps_Firebase/Pods-toDoApps_Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0F41766AF25036FF1F9E41B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toDoApps_FirebaseTests/Pods-toDoApps_FirebaseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A789E8BB1D48575700CBEFC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A789E8C71D48575700CBEFC6 /* SecondViewController.swift in Sources */,
+				A7519D3E1D48F7960071419A /* LoginViewController.swift in Sources */,
+				A789E8F31D485B7800CBEFC6 /* CVTableViewController.swift in Sources */,
 				A789E8C31D48575700CBEFC6 /* AppDelegate.swift in Sources */,
-				A789E8C51D48575700CBEFC6 /* FirstViewController.swift in Sources */,
+				A7519D471D49CA720071419A /* DetailViewController.swift in Sources */,
+				A7519CE61D485D570071419A /* User.swift in Sources */,
+				A7519D3C1D48F3E50071419A /* toDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +604,7 @@
 		};
 		A789E8EA1D48575700CBEFC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5786511C3DBE515427E9C624 /* Pods-toDoApps_Firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = toDoApps_Firebase/Info.plist;
@@ -412,6 +616,7 @@
 		};
 		A789E8EB1D48575700CBEFC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D121E7CE2A3D91C07CAE3D0 /* Pods-toDoApps_Firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = toDoApps_Firebase/Info.plist;
@@ -423,6 +628,7 @@
 		};
 		A789E8ED1D48575700CBEFC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD04A501B410A195D4A99284 /* Pods-toDoApps_FirebaseTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = toDoApps_FirebaseTests/Info.plist;
@@ -435,6 +641,7 @@
 		};
 		A789E8EE1D48575700CBEFC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A501EC185C9C28EEC1666E /* Pods-toDoApps_FirebaseTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = toDoApps_FirebaseTests/Info.plist;
@@ -447,6 +654,7 @@
 		};
 		A789E8F01D48575700CBEFC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7937609DDBCCB43F806AD26 /* Pods-toDoApps_FirebaseUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = toDoApps_FirebaseUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -458,6 +666,7 @@
 		};
 		A789E8F11D48575700CBEFC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C068632C48BA9FF58C30538 /* Pods-toDoApps_FirebaseUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = toDoApps_FirebaseUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -486,6 +695,7 @@
 				A789E8EB1D48575700CBEFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A789E8EC1D48575700CBEFC6 /* Build configuration list for PBXNativeTarget "toDoApps_FirebaseTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +704,7 @@
 				A789E8EE1D48575700CBEFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A789E8EF1D48575700CBEFC6 /* Build configuration list for PBXNativeTarget "toDoApps_FirebaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +713,7 @@
 				A789E8F11D48575700CBEFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
